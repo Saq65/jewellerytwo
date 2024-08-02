@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
+.marquee {
+  width: 100%;
+  height: 24px;
+  background-color: #231535;
+  color: #ffffff;
+  overflow: hidden;
+}
+.marquee p {
+  font-size: 10px;
+}
+.nav {
+  top: 0;
+  z-index: 99;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  width: 100%;
+  margin-top: 18px;
+}
+.list ul {
+  display: flex;
+  gap: 3vh;
+  width: 100%;
+}
+.list ul li {
+  list-style: none;
+  text-transform: capitalize;
+  font-size: 13.6px;
+  font-weight: 600;
+  color: #513469;
+  cursor: pointer;
+}
+
+.search {
+  border: 1px solid #bf5ced;
+  height: 46px;
+  display: flex;
+  width: 224px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.search input {
+  border: unset;
+  background-color: #f6f3f9;
+}
+
+.thirdcol {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4vh;
+  width: auto;
+}
+.delivery {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+}
+.navcenter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.swiper1 {
+  width: 100%;
+  height: 476px;
+}
+.grid {
+  display: grid;
+  grid-template-areas:
+    "item1 item1 item2 item2"
+    "item1 item1 item2 item2"
+    "item1 item1 item3 item3"
+    "item1 item1 item3 item3";
+  gap: 25px;
+  padding: 25px;
+}
+
+.item1 {
+  grid-area: item1;
+  background-image: url(../public/assests/images/grid3.jpg);
+  background-size: cover;
+  background-position: 100%;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.item2 {
+  grid-area: item2;
+  background-image: url(../public/assests/images/grid1.jpg);
+  background-size: cover;
+  cursor: pointer;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.item3 {
+  grid-area: item3;
+  background-image: url(../public/assests/images/grid2.jpg);
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.timeless {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4vh;
+  padding: 25px;
+}
+
+#timeless1 {
+  height: 100px;
+  width: 380px;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  transition: transform 2s ease;
+  transition-delay: 2s;
+}
+#timeless1:hover {
+  scale: 1.1;
+}
+.timeless1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2fafc;
+}
+.timeless1 p {
+  font-weight: 500;
+  margin-left: 20px;
+  color: #10393b;
+  letter-spacing: 1px;
+  font-family: "Roboto" sans-serif;
+}
+.timeless2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efffcc;
+}
+.timeless2 p {
+  font-weight: 500;
+  margin-left: 20px;
+  color: #10393b;
+  letter-spacing: 1px;
+  font-family: "Roboto" sans-serif;
+}
+.timeless3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffebe9;
+}
+.timeless3 p {
+  font-weight: 500;
+  margin-left: 20px;
+  color: #10393b;
+  letter-spacing: 1px;
+  font-family: "Roboto" sans-serif;
+}
+.timeless4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5c4c7;
+}
+.timeless4 p {
+  font-weight: 500;
+  margin-left: 20px;
+  color: #10393b;
+  letter-spacing: 1px;
+  font-family: "Roboto" sans-serif;
+}
+.timeless5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bac6f6;
+}
+.timeless5 p {
+  font-weight: 500;
+  margin-left: 20px;
+  color: #10393b;
+  letter-spacing: 1px;
+  font-family: "Roboto" sans-serif;
+}
+.timeless6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4c8ea;
+}
+.timeless6 p {
+  font-weight: 500;
+  margin-left: 20px;
+  color: #10393b;
+  letter-spacing: 1px;
+  font-family: "Roboto" sans-serif;
+}
+.jwelleryvdo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 25px;
+}
+.vdo1 {
+  height: 450px;
+}
+.vdo2 {
+  background-image: url(../public/assests/images/website_banner-02.webp);
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.jwelleryvdo2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 25px;
+}
+.vdo3 {
+  height: 450px;
+}
+.vdo4 {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  background-color: #231535;
+}
+.collection {
+  display: grid;
+  padding: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.collection .card {
+  height: 370px;
+  width: 370px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: unset;
+}
+.collection .card img {
+  transition: transform 2s ease 2s;
+}
+.collection .card img:hover {
+  scale: 1.2;
+}
+#card2 {
+  position: relative;
+  bottom: 50px;
+}
+#collectionbtn {
+  border: 1px solid #c165ee;
+  width: 212px;
+  height: 44px;
+}
+.collecbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.refer-containaer {
+  padding: 25px;
+}
+/* .refer {
+  display: grid;
+  grid-template-areas:
+    "refimg1 refimg1 refimg2 refimg2"
+    "refimg3 refimg3 refimg4 refimg4";
+  row-gap: 20px;
+  width: 100%;
+  margin-left: 10px;
+  height: auto;
+} */
+.refer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vh;
+}
+.refimg1 {
+  grid-area: refimg1;
+  background-image: url(../public/assests/images/2x.webp);
+  background-size: cover;
+  background-position: 100%;
+  height: 290px;
+  width: 600px;
+}
+.refimg2 {
+  grid-area: refimg2;
+  background-image: url(../public/assests/images/2x\ \(1\).webp);
+  background-size: cover;
+  background-position: 100%;
+  height: 290px;
+  width: 600px;
+}
+.refimg3 {
+  grid-area: refimg3;
+  background-image: url(../public/assests/images/2x\ \(2\).webp);
+  background-size: cover;
+  background-position: 100%;
+  height: 290px;
+  width: 600px;
+}
+.refimg4 {
+  grid-area: refimg4;
+  background-image: url(../public/assests/images/2X\(3\).jpg);
+  background-size: cover;
+  background-position: 100%;
+  height: 290px;
+  width: 600px;
+}
+.hunderad{
+  font-size: 50px;
+  color: #E6C165;
+  font-weight: bolder;
+}
+
+.appoitment{
+  padding: 75px;
+  background-color: #F9F9FA;
+}
